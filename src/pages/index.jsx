@@ -8,7 +8,7 @@ function IndexPage() {
     GeoPass
     </div>
     <h1 className="elevator">
-      An Ethereum based geo-spatial privacy preserving platform for building location based tokens and dApps.
+    GeoPass is a platform for increased citizen engagement. It rewards community engagement while preserving privacy.
     </h1>
     <div className="container mx-auto px-4">
       <h2>
