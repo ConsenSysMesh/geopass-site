@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@layer base {
+
+  body {
+    @apply bg-GPGreen text-FWhite
+  } 
+  h1 {
+    @apply text-2xl font-montserrat;
+  }
+  h2 {
+    @apply text-xl my-2;
+  }
+}
+
+.iframe-bg {
+  @apply z-0 w-screen h-screen invisible md:visible;
+}
+.blender {
+  @apply z-10 bg-gradient-to-t from-GPGreen h-screen w-screen absolute bottom-48 left-0;
+}
+.layout-content-holder {
+  @apply z-20 absolute top-0 left-0;
+}
+
+.logoText {
+  @apply p-2 text-6xl md:text-8xl font-montserrat;
+}
+.elevator {
+  @apply text-2xl p-4 font-montserrat;
+}
+.element {
+  @apply p-10 rounded text-center align-middle text-xl;
+}
