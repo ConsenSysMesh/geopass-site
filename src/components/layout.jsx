@@ -8,7 +8,7 @@ function Layout(props) {
       </div>
       <div className="blender"></div>
       <div className="layout-content-holder">
-        <div className="container mx-auto">
+        <div className="container mx-auto sm:px-8 sm:py-2">
           {props.children}
         </div>
       </div>

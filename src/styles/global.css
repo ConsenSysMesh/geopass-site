@@ -24,7 +24,7 @@
   @apply z-10 bg-gradient-to-t from-GPGreen h-screen w-screen absolute bottom-48 left-0;
 }
 .layout-content-holder {
-  @apply z-20 absolute top-0 left-0;
+  @apply z-20 absolute top-0 left-0 w-screen h-screen;
 }
 
 .logoText {
